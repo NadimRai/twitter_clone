@@ -1,0 +1,70 @@
+<% if !user_signed_in? %>
+	<style>
+		body {
+			background: url("phoksundo.jpg") no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		h1{
+			color: #fff;
+			font-weight: bold;
+		}
+		.container-index{
+			margin-right: 15%;
+			margin-left: 15%;
+		}
+		.text{
+			color: white;
+			font-weight: 300;
+			font-size: 120%;
+		}
+		.footer-links{
+			text-align: center;
+			color:white;
+			margin-top:30%;
+			font-size: 75%;
+		}
+		.log-in {
+			float: right;
+			width: 300px;
+			height: 150px;
+			margin-top: 8%;
+		}
+		.sign-up{
+			float:right;
+			width: 300px;
+			height: 250px;
+		}
+	</style>
+	<div class="container-index row">
+		<div class="col-sm-6">
+			<h1>Welcome to Twitter</h1>
+			<p class="text">
+				Connect with your friends - and other fascinating
+				people.<br> Get in-the-moment updates on the things
+				that interest you.<br> And watch events unfold, in real<br>
+				time, from every angle.
+			</p>
+		</div>
+		<div class="col-sm-6">
+			<div class="log-in panel">
+				Log In
+			</div>
+			<div class="sign-up panel">
+				Sign Up
+			</div>
+		</div>
+
+		<div class="col-sm-12">
+			<p class="footer-links">
+			About  Help  Blog  Status  Jobs  Terms  Privacy  Cookies  Ads  info  Brand  Advertise  Businesses  Media  Developers  Directory  &copy; 2016  Twitter
+			</p>
+		</div>
+		
+		
+	</div>
+<% else %>
+	<script>document.location ="/home"</script>
+<% end %>

@@ -16,54 +16,49 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body{
-	background-color: rgb(210,210,210);
-	
+body {
+    background-color: rgba(212, 216, 212, 0.25);
 }
-.rounded-img{
-	border-radius: 5%;
+.rounded-img {
+    border-radius: 5%;
 }
-.navbar{
-	background-color: white;
+.navbar {
+    background-color: white;
 }
-.navbar-brand{
-	position: absolute;
-	left: 50%;
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-right: 25px !important;
+    display: block;
 }
-.post-panel{
-	margin-top: -21px;
+.post-panel {
+    margin-top: -21px;
 }
-
-.post-title{
-	text-align: left;
-	margin-left: 15px;
+.post-title {
+    text-align: left;
+    margin-left: 15px;
 }
-
-.post-content{
-	text-align: left;
-	margin-left: 15px;
+.post-content {
+    text-align: left;
+    margin-left: 15px;
 }
-.post-links{
-	text-align: left;
-	
+.post-links {
+    text-align: left;
 }
-.post-owner{
-	color:black;
-	font-weight: bold;
+.post-owner {
+    color: black;
+    font-weight: bold;
 }
-
-.post-creation{
-	opacity: 0.65;
-	
+.post-creation {
+    opacity: 0.7;
 }
-.g-links{
-	opacity: 0.4;
-	font-size: 120%;
-	margin-right: 75px;
+.g-links {
+    opacity: 0.4;
+    font-size: 120%;
+    margin-right: 75px;
 }
-
-.post-form-panel{
-	margin-bottom: -21px;
+.post-form-panel {
+    margin-bottom: -21px;
 }
 .panel-image img.panel-image-preview {
     width: 100%;
@@ -87,13 +82,8 @@ body{
 .panel-footer {
     background-color: white;
 }
-
-.home-avatar{
-	margin-bottom: 25px;
-}
-
 .profile-banner {
     width: 100%;
-    height: 400px;
+    height: 500px;
     margin-top: -21px;
 }
